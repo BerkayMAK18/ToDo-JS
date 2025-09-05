@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="todo-app">
+        <h2>Adventure List <img id="BillC" src="images/bill.gif" alt=""> </h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Submit another quest...">
+            <button id="add-btn">Add</button>
+        </div>
+        <ul id="list-container">
+            <!--<li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    </div>
+    
+</div>
+<!-- Firebase v8 scripts (MUST come before script.js) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<!-- Your app logic -->
+<script src="script.js"></script>
+
+</body>
+</html>

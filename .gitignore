@@ -1,0 +1,4 @@
+# Your existing .gitignore content...
+
+# Don't ignore GitHub workflows
+!.github/
